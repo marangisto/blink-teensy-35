@@ -1,0 +1,10 @@
+[package]
+name = "blink-teensy-35"
+version = "0.1.0"
+authors = ["Bengt Marten Agren <marangisto@me.com>"]
+edition = "2018"
+
+[dependencies]
+cortex-m-rt = "0.6.5"
+panic-halt = "0.2.0"
+mk64fx512v = { path = "../mk64fx512v" }
